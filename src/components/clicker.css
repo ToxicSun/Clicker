@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(191, 221, 244);
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    border: rgb(217, 238, 255) 20px solid;
+}
+
+.button{
+    background-color: #acd3ef;
+    width: 150px;
+    height: 80px;
+    font-size: 24px;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #c7e2f6;
+}
+
+.button-reset{
+    background-color: #cae6f9;
+    width: 150px;
+    height: 80px;
+    font-size: 24px;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.button-reset:hover{
+    background-color: #dcf0fe;
+}
+
+.counter{
+    padding: 80px;
+    color: #acd3ef;
+    font-size: 100px;
+}
