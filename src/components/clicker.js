@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './clicker.css';
 
-function Clicker() {
+function Clicker( ) {
     const [count, setCount] = useState(0);
 
     const countUp = () => {
