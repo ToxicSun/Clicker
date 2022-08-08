@@ -2,6 +2,7 @@ body{
     background-color: rgb(255, 255, 255);
     width: 100%;
     font-family: 'Press Start 2P';
+    user-select: none;
 }
 
 .container{
@@ -56,8 +57,9 @@ body{
     box-shadow: none;
 }
 .counter{
-    padding: 70px 70px 50px 80px;
+    text-align: center;
     color: #000000;
-    font-size: 80px;
+    font-size: 50px;
+    padding: 70px 0px 80px 0px;
 }
 
