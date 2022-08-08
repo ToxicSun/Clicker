@@ -14,8 +14,10 @@ function Clicker() {
     return (
         <div className="container">
             <div className='counter'>{count}</div>
-            <button className='button' onClick={countUp}>Click me!</button>
-            <button className='button-reset' onClick={countReset}>Reset</button>
+            <div>
+                <button className='button' onClick={countUp}>Click me!</button><br></br>
+                <button className='button-reset' onClick={countReset}>Reset</button>
+            </div>
         </div>
     )
 }
